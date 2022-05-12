@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Welcome to Stage 1'
+                bat "mvn test"
             }
         }
          stage('Stage 2') {
